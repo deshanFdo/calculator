@@ -1,0 +1,36 @@
+body{
+    background-color: blueviolet;
+}
+
+
+table {
+    border: 5px solid black;
+}
+
+input[type="button"] {
+    width: 100%;
+    padding: 20px 40px;
+    background-color: rgb(175, 12, 126);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    padding: 20px 50px;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    border: .01px solid black;
+}
+input[value="+"] {
+    background-color: black;
+    height: 150px;
+}
+input[value="="] {
+    background-color: black;
+    height: 150px;
+}
